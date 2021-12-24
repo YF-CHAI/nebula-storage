@@ -13,6 +13,8 @@
 #include "kvstore/RocksEngineConfig.h"
 #include "utils/NebulaKeyUtils.h"
 
+#define ISDEBUG true
+
 DEFINE_bool(move_files, false,
             "Move the SST files instead of copy when ingest into dataset");
 
