@@ -22,7 +22,7 @@ namespace nebula {
 class WebService;
 
 namespace storage {
-// final类不可以被继承
+// final修饰的类不可以再被继承
 class StorageServer final {
 public:
     StorageServer(HostAddr localHost,
